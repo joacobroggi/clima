@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
+    <script src="https://kit.fontawesome.com/8d1318581d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body class="<%= imgApi %>">
+    <div class="card">
+        
+            <h2 class="header">JMB - CLIMA</h2>
+          <div class="info">
+            <h1><%= ciudadApi %></h1>
+    
+            <div class="categorias">
+                <h3>Clima: <span><%= climaApi %> <span class="icon"><span class="<%= casoApi %>"></span></span></span></h3>
+            
+            <h3>Temperatura: <span><%= temperaturaApi %> °C</span> <span class="icon"><span class="<%= casoClimaApi %>"></span></span></h3>
+            
+            <h3>Sensacion Termica <span><%= sensacionApi %> °C</span> <span class="<%= casoSensacionApi %>"></span> </h3>
+            
+            <h3>Humedad <span><%= humedadApi %> %<span class="ec ec-droplet"></span></span></h3>
+          
+            </div>
+            <div class="boton-cont"><a href="/" class="ancla">Ver Otra Ciudad <span class="ec ec-earth-americas"></span>
+            </a></div>
+          </div>
+       
+       
+    </div>
+    
+    
+    
+</body>
+</html>

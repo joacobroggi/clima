@@ -1,0 +1,411 @@
+:root {
+  --orange: #ffb72b;
+  --fuente: "M PLUS 2";
+}
+* {
+    font-family: var(--fuente);
+}
+body {
+  /* overflow: hidden;  */
+  height: 100%;
+  background-color: var(--orange);
+  margin: 0 0;
+}
+.flexContainer {
+  display: none;
+}
+.flexContainer-mobile {
+  display: flex;
+  justify-items: center;
+}
+.home {
+  background-image: url("/img/homeFondo.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.h2Home {
+  text-decoration: underline;
+  margin: 0 0;
+  font-weight: 400;
+}
+p {
+  color: white;
+  font-family: var(--fuente);
+  font-weight: 300;
+}
+.conocimientos {
+    font-family: var(--fuente);
+    font-weight: 400;
+}
+.verMas {
+  color: #e4dede;
+  font-weight: 200;
+}
+form {
+  text-align: center;
+}
+.input {
+  width: 75%;
+  height: 30px;
+  padding: 2%;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: #ffb72b;
+  transition: 0.2s;
+  /* color: #ffb72b; */
+  font-family: var(--fuente);
+}
+.input:hover {
+  border-color: var(--orange);
+  cursor: pointer;
+}
+.submit {
+  width: 50%;
+  height: 30px;
+  /* padding: 5%; */
+  border-radius: 10px;
+  border: 1px solid white;
+  transition: 0.2s;
+  font-family: var(--fuente);
+}
+.submit:hover {
+  background-color: #ffb72b;
+  color: white;
+  cursor: pointer;
+}
+
+.card-home-mobile {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(24px);
+ 
+}
+.card2-mobile {
+  
+  background: rgba(255, 183, 43, 0.5);
+  backdrop-filter: blur(24px);
+  border-radius: 20px;
+  border: 3px solid var(--orange);
+  margin-top: 4vh;
+  margin-bottom: 2vh;
+  padding: 1%;
+  text-align: center;
+}
+.h2Home {
+  color: white;
+}
+
+.header {
+  color: white;
+  font-weight: 400;
+  background: rgba(255, 183, 43, 0.6);
+  backdrop-filter: blur(24px);
+  margin: 0 0;
+  padding: 2.5vh 0px;
+  text-align: center;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+h1 {
+  font-size: 8vw;
+  color: white;
+  font-weight: 400;
+}
+.despejado {
+  background-image: url("/img/despejado-f.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.lluvia {
+  background-image: url("/img/rain2.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.nubes {
+  background-image: url("/img/nubes.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.tormenta {
+  background-image: url("/img/tormenta.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.niebla {
+  background-image: url("/img/niebla.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #ffb72b;
+}
+.nieve {
+  background-image: url("/img/nieve.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffb72b;
+}
+.card {
+  width: 70%;
+  height: 100vh;
+  margin: 0 0;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(24px);
+}
+.info {
+  margin: 1vh 5%;
+}
+h1 {
+  font-size: 8vw;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 5vh;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 5vw;
+  font-weight: 400;
+  color: white;
+}
+h3 {
+  font-size: 5vw;
+  color: var(--orange);
+  font-family: var(--fuente);
+  font-weight: 300;
+  padding-bottom: 2vh;
+}
+
+span {
+  color: white;
+}
+.boton-cont {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.ancla {
+  text-decoration: none;
+  color: var(--orange);
+  font-weight: 500;
+  font-family: var(--fuente);
+  font-size: 5vw;
+  font-weight: 400;
+  background: transparent;
+  border: 2px solid #ffb72b;
+  /* backdrop-filter: blur(50px); */
+
+  border-radius: 20px 0px;
+
+  width: 100%;
+  padding: 2vh 10%;
+  /* border-radius: 20px 10px; */
+
+  border-color: #ffb72b;
+}
+.ancla:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+}
+.tempBaja {
+  color: rgb(86, 201, 239);
+}
+.tempMedia {
+  color: gray;
+}
+.tempAlta {
+  color: red;
+}
+
+/*---------- LAPTOP ----------*/
+
+@media (min-width: 770px) {
+  
+  .flexContainer-mobile {
+    display: none;
+  }
+  
+  .flexContainer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .card2 {
+    align-self: center;
+    justify-self: end;
+    background: rgba(255, 183, 43, 0.5);
+    backdrop-filter: blur(24px);
+    border-radius: 20px;
+    border: 3px solid var(--orange);
+
+    width: 65vw;
+    margin: 0 10vw;
+    padding: 2% 5%;
+    text-align: center;
+  }
+  
+  
+  
+  .despejado {
+    background-image: url("/img/despejado-f.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffb72b;
+  }
+  .lluvia {
+    background-image: url("/img/rain2.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffb72b;
+  }
+  .nubes {
+    background-image: url("/img/nubes.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffb72b;
+  }
+  .tormenta {
+    background-image: url("/img/tormenta.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffb72b;
+  }
+  .niebla {
+    background-image: url("/img/niebla.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #ffb72b;
+  }
+  .nieve {
+    background-image: url("/img/nieve.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffb72b;
+  }
+  .card {
+    width: 40%;
+    height: 100vh;
+    margin: 0 0;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(24px);
+  }
+  .card-home {
+    width: 90%;
+    height: 100vh;
+    margin: 0 0;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(24px);
+  }
+  .info {
+    margin: 1vh 10%;
+  }
+  
+  h1 {
+    font-size: 4vw;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 5vh;
+    text-transform: capitalize;
+  }
+  h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    color: white;
+  }
+  h3 {
+    font-size: 2vw;
+    color: var(--orange);
+    font-family: var(--fuente);
+    font-weight: 300;
+    padding-bottom: 2vh;
+  }
+
+  span {
+    color: white;
+  }
+
+  .boton-cont {
+    text-align: center;
+    margin-top: 10vh;
+  }
+
+  .ancla {
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: 500;
+    font-family: var(--fuente);
+    font-size: 2vw;
+    font-weight: 400;
+    background: transparent;
+    border: 2px solid #ffb72b;
+    /* backdrop-filter: blur(50px); */
+
+    border-radius: 20px 0px;
+
+    width: 100%;
+    padding: 2vh 10%;
+    /* border-radius: 20px 10px; */
+
+    border-color: #ffb72b;
+  }
+  .ancla:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .tempBaja {
+    color: rgb(86, 201, 239);
+  }
+  .tempMedia {
+    color: gray;
+  }
+  .tempAlta {
+    color: red;
+  }
+}
