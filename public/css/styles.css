@@ -36,6 +36,22 @@ p {
   color: white;
   font-family: var(--fuente);
   font-weight: 300;
+
+}
+.error {
+  background-image: url("/img/homeFondo.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffb72b;
+}
+.p {
+  color: black;
+  font-family: var(--fuente);
+  font-weight: 500;
+
 }
 .conocimientos {
     font-family: var(--fuente);
@@ -180,6 +196,9 @@ h1 {
   margin: 0 0;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(24px);
+}
+.pa {
+  padding: 20px;
 }
 .info {
   margin: 1vh 5%;
