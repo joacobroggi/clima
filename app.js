@@ -80,6 +80,10 @@ app.post("/", function (req, res) {
             img = "niebla";
             caso = "fas fa-smog";
             break;
+          case "Fog":
+            img = "niebla";
+            caso = "fas fa-smog";
+            break;
           default:
             console.log("algo salio mal");
             break;

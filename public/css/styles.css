@@ -11,6 +11,11 @@ body {
   background-color: var(--orange);
   margin: 0 0;
 }
+.h2Error {
+  font-family: var(--fuente);
+  color: white;
+  text-decoration: none;
+}
 .flexContainer {
   display: none;
 }
@@ -32,6 +37,7 @@ body {
   margin: 0 0;
   font-weight: 400;
 }
+
 p {
   color: white;
   font-family: var(--fuente);
@@ -64,6 +70,7 @@ p {
 form {
   text-align: center;
 }
+
 .input {
   width: 75%;
   height: 30px;
